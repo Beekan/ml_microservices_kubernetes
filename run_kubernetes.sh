@@ -8,7 +8,7 @@ dockerpath="beekoan/udacity_project4"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run app --image=$dockerpath --port=80
+kubectl run app --image=$dockerpath --port=8000
 
 # Step 3:
 # List kubernetes pods
